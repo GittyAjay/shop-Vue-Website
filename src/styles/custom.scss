@@ -1,0 +1,110 @@
+
+@import "carbon-components/scss/globals/scss/styles";
+
+@import "../../node_modules/ag-grid-community/dist/styles/ag-grid.scss";
+@import "../../node_modules/ag-grid-community/dist/styles/ag-theme-alpine.css";
+
+@import "@carbon/themes/scss/themes";
+@import url('https://fonts.googleapis.com/css? family=Oxygen:300,400,700&display=swap');
+@import url('https://fonts.googleapis.com/css? family=Comfortaa&display=swap');
+
+.body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+// Use the gray 90 theme
+$carbon--theme: $carbon--theme--g90;
+@include carbon--theme();
+
+.bx--text-input,
+.bx--text-area,
+.bx--list-box {
+    border: 1px solid #8d8d8d;
+}
+
+.bx--side-nav {
+    background-color: #161616;
+
+    .bx--side-nav__items {
+        padding: 0px;
+        svg {
+            fill: #aeaeae;
+            width: 20px;
+            height: 20px;
+        }
+        .bx--side-nav__link {
+            height: 48px;
+            padding-left: 12px;
+        }
+    }
+}
+.bx--tile{
+  min-width: 0px;
+  min-height: 0px;
+}
+
+#container-main {
+    position: fixed;
+    top: 48px;
+    bottom: 0px;
+    left: 48px;
+    right: 0px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.progress{
+  border-radius: 0px;
+}
+.action-box {
+  min-width: 20px;
+  min-height: 20px;
+  margin: 0.5rem;
+}
+.handle {
+  float: left;
+  font-size: 1.2rem;
+  cursor: move;
+}
+.content-handle {
+  color: grey;
+  font-size: 1.2rem;
+  cursor: move;
+}
+.edit {
+  color: grey;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.lecture-uploaded {
+  float: left;
+  color: forestgreen;
+  font-size: 1.3rem;
+}
+.lecture {
+  float: left;
+  color: grey;
+  font-size: 1.3rem;
+}
+.close {
+  float: right;
+  font-size: 1.3rem;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+  }
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #424242;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #222222;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #161616;
+  }

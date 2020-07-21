@@ -1,0 +1,79 @@
+{
+  "name": "sopper",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@carbon/icons-vue": "^10.10.2",
+    "@carbon/layout": "^10.9.2",
+    "@carbon/themes": "^10.11.2",
+    "@carbon/type": "^10.10.2",
+    "@carbon/vue": "^2.24.1",
+    "@ckeditor/ckeditor5-basic-styles": "^19.0.0",
+    "@ckeditor/ckeditor5-block-quote": "^19.0.0",
+    "@ckeditor/ckeditor5-dev-utils": "^13.0.1",
+    "@ckeditor/ckeditor5-dev-webpack-plugin": "^9.0.2",
+    "@ckeditor/ckeditor5-editor-classic": "^19.0.0",
+    "@ckeditor/ckeditor5-essentials": "^19.0.0",
+    "@ckeditor/ckeditor5-link": "^19.0.0",
+    "@ckeditor/ckeditor5-list": "^19.0.0",
+    "@ckeditor/ckeditor5-paragraph": "^19.0.0",
+    "@ckeditor/ckeditor5-theme-lark": "^19.0.0",
+    "@ckeditor/ckeditor5-vue": "^1.0.1",
+    "@ckeditor/ckeditor5-word-count": "^19.0.0",
+    "ag-grid-community": "^23.1.0",
+    "ag-grid-vue": "^23.1.0",
+    "babel-polyfill": "^6.26.0",
+    "core-js": "^3.6.4",
+    "firebase": "^7.14.2",
+    "font-awesome": "^4.7.0",
+    "get-blob-duration": "^1.1.0",
+    "moment-timezone": "^0.5.31",
+    "postcss-loader": "^3.0.0",
+    "raw-loader": "^0.5.1",
+    "vue": "^2.6.11",
+    "vue-json-excel": "^0.2.98",
+    "vue-moment": "^4.1.0",
+    "vue-multiselect": "^2.1.6",
+    "vue-property-decorator": "^8.4.2",
+    "vue-router": "^3.1.6",
+    "vuedraggable": "^2.23.2",
+    "vuejs-dialog": "^1.4.1",
+    "vuex": "^3.3.0",
+    "vuexfire": "^3.2.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.3.0",
+    "@vue/cli-plugin-eslint": "~4.3.0",
+    "@vue/cli-service": "~4.3.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^8.0.2",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
